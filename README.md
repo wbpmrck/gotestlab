@@ -1,1 +1,1 @@
-# gotestlab
+>this is a golang lib,which used to verify some doubt or confusion things when study go.
