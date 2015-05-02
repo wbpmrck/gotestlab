@@ -1,3 +1,13 @@
+
+/*
+场景:
+
+如果一个struct(A)匿名嵌套了2个struct (B,C),B和C内部又有同名的method(foo),那么我调用A.foo的时候，实际调用的是B还是C的？
+
+结论
+
+结果是编译不通过,go编译器不允许这种情况，报错“ambiguous selector”
+*/
 package main
 
 import "fmt"
